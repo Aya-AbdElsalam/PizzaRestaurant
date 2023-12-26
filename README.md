@@ -1,7 +1,4 @@
 <<<<<<< HEAD
-# animated-carnival
-=======
-<<<<<<< HEAD
 # PizaaRestaurant
 =======
 # Getting Started with Create React App
