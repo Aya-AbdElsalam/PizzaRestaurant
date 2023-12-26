@@ -31,59 +31,59 @@ export default function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav  pe-3 flex-grow-1 fw-bold justify-content-center">
               {/* home */}
-              <li className="nav-item ms-3 ">
-                <Link className="nav-link active" aria-current="page" to="/" data-bs-dismiss="offcanvas">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
+                <Link className="nav-link active" aria-current="page" to="/" >
                   HOME
                 </Link>
               </li>
               {/* menu */}
-              <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="menu" data-bs-dismiss="offcanvas">
+              <li className="nav-item ms-3 "  data-bs-dismiss="offcanvas">
+                <Link className="nav-link" to="menu">
                   MENU
                 </Link>
               </li>
               {/* about us */}
-              <li className="nav-item ms-3 ">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
                 <Link
                   className="nav-link active"
                   aria-current="page"
                   to="aboutUs"
-                  data-bs-dismiss="offcanvas"
+                  
                 >
                   ABOUT US
                 </Link>
               </li>
               {/* gallery */}
-              <li className="nav-item ms-3 ">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
                 <Link
                   className="nav-link active"
                   aria-current="page"
                   to="gallery"
-                  data-bs-dismiss="offcanvas"
+                  
                 >
                   GALLERY
                 </Link>
               </li>
               {/* team */}
-              <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="team"  data-bs-dismiss="offcanvas">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
+                <Link className="nav-link" to="team"  >
                   OUR TEAM
                 </Link>
               </li>
               {/* events */}
-              <li className="nav-item ms-3 ">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
                 <Link
                   className="nav-link active"
                   aria-current="page"
                   to="events"
-                  data-bs-dismiss="offcanvas"
+                  
                 >
                   EVENTS
                 </Link>
               </li>
               {/* CONTACT */}
-              <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="contact"  data-bs-dismiss="offcanvas">
+              <li className="nav-item ms-3 " data-bs-dismiss="offcanvas">
+                <Link className="nav-link" to="contact"  >
                   CONTACT
                 </Link>
               </li>
