@@ -32,13 +32,13 @@ export default function Navbar() {
             <ul className="navbar-nav  pe-3 flex-grow-1 fw-bold justify-content-center">
               {/* home */}
               <li className="nav-item ms-3 ">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/" data-bs-dismiss="offcanvas">
                   HOME
                 </Link>
               </li>
               {/* menu */}
               <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="menu">
+                <Link className="nav-link" to="menu" data-bs-dismiss="offcanvas">
                   MENU
                 </Link>
               </li>
@@ -48,6 +48,7 @@ export default function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   to="aboutUs"
+                  data-bs-dismiss="offcanvas"
                 >
                   ABOUT US
                 </Link>
@@ -58,13 +59,14 @@ export default function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   to="gallery"
+                  data-bs-dismiss="offcanvas"
                 >
                   GALLERY
                 </Link>
               </li>
               {/* team */}
               <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="team">
+                <Link className="nav-link" to="team"  data-bs-dismiss="offcanvas">
                   OUR TEAM
                 </Link>
               </li>
@@ -74,13 +76,14 @@ export default function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   to="events"
+                  data-bs-dismiss="offcanvas"
                 >
                   EVENTS
                 </Link>
               </li>
               {/* CONTACT */}
               <li className="nav-item ms-3 ">
-                <Link className="nav-link" to="contact">
+                <Link className="nav-link" to="contact"  data-bs-dismiss="offcanvas">
                   CONTACT
                 </Link>
               </li>
