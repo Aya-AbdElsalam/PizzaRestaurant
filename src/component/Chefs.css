@@ -1,0 +1,24 @@
+.expChefsSection {
+    margin-bottom: 80px;
+    transition: all 5s ease-in-out;
+}
+
+.expChefsSection .chefs-team {
+    min-height: 300px;
+}
+
+.expChefsSection .chefs-team>div {
+    width: calc(100% / 4);
+}
+
+@media(max-width:995px) {
+    .expChefsSection .chefs-team>div {
+        width: 50%;
+    }
+}
+
+@media(max-width:770px) {
+    .expChefsSection .chefs-team>div {
+        width: 100%;
+    }
+}

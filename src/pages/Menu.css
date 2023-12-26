@@ -1,0 +1,52 @@
+select {
+    background-color: var(--main--color);
+
+}
+
+select option {
+    background-color: white;
+    color: black;
+}
+
+select option::selection {
+    background-color: var(--main--color) !important;
+
+}
+
+.card-body button {
+    margin-top: -17%;
+    margin-left: 16%;
+}
+
+.menu-items {
+    min-height: 150vh;
+}
+
+.card:hover {
+    filter: drop-shadow(8px 11px 18px gray);
+
+}
+
+.productsItem button i {
+    background-color: var(--second--color);
+    border: 4px solid var(--main--color);
+}
+
+.menu-items .top {
+    border-bottom: 1px dashed;
+}
+
+.dropdown-toggle {
+    background-color: var(--second--color) !important
+}
+
+.dropdown-menu li.active a {
+    background-color: var(--second--color) !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.dropdown-menu li a:focus,
+.dropdown-menu li a:hover {
+    background-color: var(--main--color);
+}

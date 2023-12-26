@@ -1,0 +1,5 @@
+.section {
+    background-image: url("../images/coverSection.png");
+    height: 400px;
+    background-size: cover;
+}

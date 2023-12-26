@@ -1,0 +1,25 @@
+.navbar .cart>span {
+    background-color: var(--second--color);
+    width: 30px;
+    height: 30px;
+    left: -17px;
+}
+
+.navbar .cart>button {
+    background-color: var(--background--color);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar .cart>button span {
+    color: var(--second--color);
+}
+
+.navbar .cart i {
+    background-color: var(--main--color);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}

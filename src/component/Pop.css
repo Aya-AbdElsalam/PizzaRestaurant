@@ -1,0 +1,19 @@
+.pop {
+    z-index: 1100 !important;
+    width: 564px !important;
+    overflow: auto !important;
+    filter: drop-shadow(2px 12px 13px black);
+    max-height: 600px !important;
+}
+
+.popUpItem {
+    z-index: 5000;
+}
+
+.popUpItem.open {
+    display: flex !important;
+}
+
+.btn-close {
+    background-color: var(--second--color) !important;
+}

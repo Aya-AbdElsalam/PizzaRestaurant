@@ -1,0 +1,19 @@
+.chefs-team {
+    min-height: 300px;
+}
+
+.chefs-team>div {
+    width: calc(100% / 4);
+}
+
+@media(max-width:995px) {
+    .chefs-team>div {
+        width: 50%;
+    }
+}
+
+@media(max-width:770px) {
+    .chefs-team>div {
+        width: 100%;
+    }
+}

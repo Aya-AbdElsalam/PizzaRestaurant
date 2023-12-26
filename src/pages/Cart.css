@@ -1,0 +1,19 @@
+.ItemsDetails {
+    box-shadow: 2px 2px 20px gray;
+}
+
+.summary {
+    height: fit-content;
+}
+
+.trash:hover {
+    color: var(--second--color);
+}
+
+button.check {
+    background-color: var(--second--color);
+}
+
+button.check:hover {
+    background-color: black;
+}

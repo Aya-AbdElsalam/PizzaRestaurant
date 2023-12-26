@@ -1,0 +1,13 @@
+  .Nav-bottom {
+      background-color: var(--background--color);
+      height: 50px;
+  }
+
+  .Nav-bottom ul li:nth-child(2) span,
+  .Nav-bottom ul i {
+      color: var(--second--color);
+  }
+
+  .Nav-bottom ul i {
+      font-size: 20px;
+  }

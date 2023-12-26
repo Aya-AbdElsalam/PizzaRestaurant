@@ -1,0 +1,12 @@
+ .chef:hover img {
+     filter: brightness(.5);
+ }
+
+ .chef .info {
+     transition: all 2s !important;
+ }
+
+ .chef:hover .info {
+     bottom: 0;
+     background-color: var(--second--color);
+ }

@@ -1,0 +1,15 @@
+.history .item2>div {
+    flex-basis: calc(71% / 2);
+}
+
+.item2 .rounded-bottom-circle {
+    border-bottom-right-radius: 0% !important;
+}
+
+@media(max-width:540px) {
+
+    .history .item1>div,
+    .history .item2>div {
+        flex-basis: 100%;
+    }
+}

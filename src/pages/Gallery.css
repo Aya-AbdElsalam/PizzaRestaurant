@@ -1,0 +1,8 @@
+.gallery img:hover {
+    scale: 1.05;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.lg-backdrop.in {
+    opacity: .8;
+}

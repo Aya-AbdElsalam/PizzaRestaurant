@@ -1,0 +1,15 @@
+.reviews .carousel-item {
+    height: 350px;
+}
+
+.reviews i {
+    font-size: 83px !important;
+    margin-bottom: -67px;
+    color: var(--bs-border-color);
+}
+
+@media(max-width:826px) {
+    .reviews p {
+        font-size: 18px !important;
+    }
+}

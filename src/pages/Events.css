@@ -1,0 +1,26 @@
+.Events-section h4 {
+    border-bottom: 1px dashed;
+}
+
+.Events-section a:hover {
+    color: var(--second--color) !important;
+    font-weight: bold;
+}
+
+.Events-section>div>div {
+    box-shadow: 2px 2px 28px gray;
+}
+
+.Events-section>div:nth-of-type(2),
+.Event-details-section>div:nth-of-type(2) {
+    top: 55px;
+    height: fit-content;
+}
+
+.Event-details-section .location p:not(p:first-of-type) {
+    font-size: 14px;
+}
+
+.Event-details-section .slider {
+    white-space: nowrap;
+}

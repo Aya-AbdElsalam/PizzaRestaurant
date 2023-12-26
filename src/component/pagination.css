@@ -1,0 +1,10 @@
+.pagination span {
+    cursor: pointer;
+}
+
+.pagination {
+    --bs-pagination-active-bg: var(--main--color) !important;
+    --bs-pagination-active-border-color: var(--main--color) !important;
+    --bs-pagination-color: var(--second--color) !important;
+    --bs-pagination-hover-color: var(--main--color) !important;
+}

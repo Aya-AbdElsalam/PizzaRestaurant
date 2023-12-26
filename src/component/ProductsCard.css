@@ -1,0 +1,11 @@
+.img .overlay {
+    background-color: #fcb3027a;
+}
+
+.img:hover .overlay {
+    display: flex !important;
+}
+
+.img:hover button {
+    background-color: var(--second--color);
+}

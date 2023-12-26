@@ -1,0 +1,45 @@
+:root {
+  --main--color: #fcb302;
+  --second--color: #f43127;
+  --background--color: #f5ede0;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s;
+}
+
+button:active {
+  outline: none !important;
+}
+
+button.shop {
+  left: 8% !important;
+  width: 205px !important;
+  height: 50px !important;
+  border: 1px solid var(--second--color) !important;
+  color: var(--second--color) !important;
+}
+
+button.shop:hover {
+  background-color: var(--main--color) !important;
+  color: white !important;
+}
+
+button.cart {
+  background-color: var(--second--color) !important;
+  color: white !important;
+}
+
+button.cart i {
+  color: white !important;
+}
+
+button.cart:hover {
+  background-color: black !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

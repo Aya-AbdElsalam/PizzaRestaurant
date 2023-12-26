@@ -1,0 +1,17 @@
+.contact-methods i {
+    border-radius: 68% 44% 10% 46px;
+    border: 3px solid var(--main--color);
+    transition: all 1s ease-in-out;
+}
+
+.contact-methods i:hover {
+    color: var(--second--color) !important;
+    border-radius: 30% 44% 31% 110px;
+    border-color: var(--second--color);
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid var(--second--color) !important;
+    box-shadow: none !important;
+}
