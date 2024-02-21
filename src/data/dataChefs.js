@@ -1,7 +1,7 @@
-import chef1 from "../images/chef1.jpg";
-import chef2 from "../images/chef2.jpg";
-import chef3 from "../images/chef3.jpg";
-import chef4 from "../images/chef4.jpg";
+import chef1 from "../images/chef1.webp";
+import chef2 from "../images/chef2.webp";
+import chef3 from "../images/chef3.webp";
+import chef4 from "../images/chef4.webp";
 export const data_chefs = [
   {
     id: 1,

@@ -1,20 +1,24 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import Navbar from "./component/Navbar";
-import NavbarBottom from "./component/NavbarBottom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import TeamInfo from "./pages/teamInfo";
-import OurTeam from "./pages/ourTeam";
-import Contact from "./pages/Contact";
-import Gallery from "./pages/Gallery";
-import Menu from "./pages/Menu";
-import Cart from "./pages/Cart";
-import Event from "./pages/Event";
-import Footer from "./component/Footer";
-import EventDetails from "./pages/EventDetails";
+import Navbar from "./component/js/Navbar";
+import NavbarBottom from "./component/js/NavbarBottom";
+import Home from "./pages/js/Home";
+import About from "./pages/js/About";
+import TeamInfo from "./pages/js/teamInfo";
+import OurTeam from "./pages/js/ourTeam";
+import Contact from "./pages/js/Contact";
+import Gallery from "./pages/js/Gallery";
+import Menu from "./pages/js/Menu";
+import Cart from "./pages/js/Cart";
+import EventDetails from "./pages/js/EventDetails";
+import Footer from "./component/js/Footer";
+import Events from "./pages/js/Event";
+import { useEffect } from "react";
 function App() {
   const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className="App">
       <Navbar></Navbar>
@@ -28,7 +32,7 @@ function App() {
         <Route path="gallery" element={<Gallery></Gallery>}></Route>
         <Route path="menu" element={<Menu></Menu>}></Route>
         <Route path="cart" element={<Cart></Cart>}></Route>
-        <Route path="events" element={<Event></Event>}></Route>
+        <Route path="events" element={<Events></Events>}></Route>
         <Route
           path="events/:id/:title"
           element={<EventDetails></EventDetails>}

@@ -1,8 +1,16 @@
 :root {
   --main--color: #fcb302;
-  --second--color: #f43127;
+  --second--color: #cd0c03;
   --background--color: #f5ede0;
 
+}
+
+.App {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
 }
 
 input:-webkit-autofill,

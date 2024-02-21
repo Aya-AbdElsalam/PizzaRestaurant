@@ -1,15 +1,15 @@
-import img1 from "../images/event1.jpg";
-import img2 from "../images/event2.jpg";
-import img3 from "../images/event3.avif";
-import img4 from "../images/event4.jpg";
-import img5 from "../images/event5.jpg";
-import img6 from "../images/event6.jpg";
-import imge1 from "../images/event11.avif";
-import imge2 from "../images/event12.jpg";
-import imge3 from "../images/event13.jpg";
-import imge4 from "../images/event14.jpg";
-import imge5 from "../images/event15.jpg";
-import imge6 from "../images/event16.jpg";
+import img1 from "../images/event1.webp";
+import img2 from "../images/event2.webp";
+import img3 from "../images/event3.webp";
+import img4 from "../images/event4.webp";
+import img5 from "../images/event5.webp";
+import img6 from "../images/event6.webp";
+import imge1 from "../images/event11.webp";
+import imge2 from "../images/event12.webp";
+import imge3 from "../images/event13.webp";
+import imge4 from "../images/event14.webp";
+import imge5 from "../images/event15.webp";
+import imge6 from "../images/event16.webp";
 export const EventsData = [
   {
     id: 1,

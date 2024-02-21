@@ -1,0 +1,23 @@
+.clients-section,
+.clients-section .container {
+    min-height: 450px;
+}
+
+.clients-section {
+    background-image: url("../../images/bg2.webp");
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+.clients-section .container>div {
+    width: 275px;
+}
+
+.clients-section h1 {
+    font-size: 60px;
+}
+
+.clients-section i {
+    font-size: 55px;
+    color: var(--main--color);
+}
