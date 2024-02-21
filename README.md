@@ -1,6 +1,29 @@
-<<<<<<< HEAD
-# PizaaRestaurant
-=======
+# About the Project
+Discover the perfect slice at our pizza paradise! Explore our mouthwatering menu, order online, and join us for unforgettable flavors and fun events. Welcome to your new favorite pizzeria experience!
+<br />
+👉 **features :** "Add to cart" ,"Remove from cart" ,"Search for food" ,"Sort food from high to low price and low to high" ,"Filter food by price" and "Filter food by category"
+<br />
+  <br />
+
+👉 **Live Demo :** (https://pizza-restaurant-five.vercel.app/)
+
+# The site
+![pizza](https://github.com/Aya-AbdElsalam/PizzaRestaurant/assets/152267387/6d55b406-4bff-4632-8200-a8b4bf5b77ba)
+![pizza2](https://github.com/Aya-AbdElsalam/PizzaRestaurant/assets/152267387/2df27ae9-9ee2-4399-96f7-b605f6dad903)
+
+# PageSpeed 
+![Image 1](https://github.com/Aya-AbdElsalam/PizzaRestaurant/assets/152267387/61493a40-2553-4914-bb03-150d12f8c9d7)
+![Image 2](https://github.com/Aya-AbdElsalam/PizzaRestaurant/assets/152267387/6a89d613-4140-4f40-bbe7-e98184fcaf27)
+
+# Tools
+- React.js
+- Bootstrap
+- CSS
+- Redux Toolkit
+- fontawesome
+- emailjs
+- lightgallery
+- sweetalert2
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
