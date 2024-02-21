@@ -29,16 +29,16 @@ export default function TeamInfo() {
             </p>
             <p className="mb-4 mt-4">{choosenChef.jopDes}</p>
             <ul className=" d-flex   ">
-              <li className="list-group-item fs-3 rounded me-3 cursor-pointer text-align-center">
+              <li className="list-group-item fs-3 rounded me-3 cursor-pointer text-center">
                 <FontAwesomeIcon icon={faFacebookF} />
               </li>
-              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-align-center">
+              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-center">
                 <FontAwesomeIcon icon={faInstagram} />
               </li>
-              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-align-center">
+              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-center">
                 <FontAwesomeIcon icon={faPinterestP} />
               </li>
-              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-align-center">
+              <li className="list-group-item fs-3 rounded  me-3 cursor-pointer text-center">
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </li>
             </ul>

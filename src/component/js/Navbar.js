@@ -104,11 +104,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className="cart position-relative text-center">
-          <span className="rounded-circle  fw-bold position-absolute  text-align-center">
+          <span className="rounded-circle  fw-bold position-absolute  text-center">
             {CartItems.length}
           </span>
           <Link to={"cart"} aria-label="go to cart">
-            <i className="rounded-circle cursor-pointer d-inline-block text-white text-align-center">
+            <i className="rounded-circle cursor-pointer d-inline-block text-white text-center">
               <FontAwesomeIcon icon={faCartShopping} />
             </i>
           </Link>
