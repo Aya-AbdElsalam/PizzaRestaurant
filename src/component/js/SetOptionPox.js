@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "../css/Pop.css";
 export default function SetOptionPox(props) {
   let product = props.product;
@@ -14,7 +15,9 @@ export default function SetOptionPox(props) {
             choosen = product.size.find((e) => {
               return e.size === value;
             });
-            document.querySelectorAll("h5").forEach((e) => {
+            document.querySelectorAll("h1").forEach((e) => {
+              console.log(e.textContent, product.title);
+
               if (e.textContent === product.title) {
                 document.getElementById(
                   product.id
